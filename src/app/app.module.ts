@@ -9,12 +9,10 @@ import { HelloComponent } from './hello.component';
 import { ProductComponent } from './backend/product/product.component';
 import { AdminComponent } from './backend/admin/admin.component';
 import {DashboardComponent } from './backend/dashboard/dashboard.component';
-import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, ProductComponent, AdminComponent,DashboardComponent, HomeComponent, FooterComponent, HeaderComponent ],
+  declarations: [ AppComponent, HelloComponent, ProductComponent, AdminComponent,DashboardComponent ],
   bootstrap:    [ AppComponent ],
     providers: [ProductService]
 })

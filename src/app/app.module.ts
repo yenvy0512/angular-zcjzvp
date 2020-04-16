@@ -9,7 +9,7 @@ import { AdminComponent } from './backend/admin.component';
 import {DashboardComponent } from './backend/dashboard.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ProductComponent, AdminComponent ],
+  declarations: [ AppComponent, HelloComponent, ProductComponent, AdminComponent,DashboardComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

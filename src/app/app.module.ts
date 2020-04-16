@@ -15,5 +15,6 @@ import {DashboardComponent } from './backend/dashboard/dashboard.component';
   declarations: [ AppComponent, HelloComponent, ProductComponent, AdminComponent,DashboardComponent ],
   bootstrap:    [ AppComponent ],
     providers: [ProductService]
+
 })
 export class AppModule { }
